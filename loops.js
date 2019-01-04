@@ -20,9 +20,9 @@ function incrementVariable() {
   i = i + 1;
 }
 
-function doWhileLoop(arr) {
+function doWhileLoop(array) {
   do {
-    arr.pop();
+    array.pop();
     incrementVariable();
-  } while (arr.length > 0 && incrementVariable());
+  } while (array.length > 0 && incrementVariable());
 }
